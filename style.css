@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#interface {
+    margin-left: 10px;
+}
+
+#map {
+    position: relative;
+    border: 1px solid black;
+    top: 0px;
+    left: 0px;
+    height: 190px;
+    width: 190px;
+    background-color: white;
+}
+
+#tank {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 19px;
+    height: 19px;
+    background-size: 100% 100%;
+}
+
+#boom {
+    position: absolute;
+    top: 76px;
+    left: 114px;
+    width: 19px;
+    height: 19px;
+    background-size: 100% 100%;
+}
+
+#ctrl {
+    position: relative;
+    margin-top: 4px;
+    height: 102px;
+    width: 102px;
+}
+
+.btn {
+    display: block;
+    height: 34px;
+    width: 34px;
+    background-color: antiquewhite;
+    color: black;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: lightgrey;
+}
+
+#up.btn {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#down.btn {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#left.btn {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+}
+
+#right.btn {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
